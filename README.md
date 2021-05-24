@@ -8,18 +8,18 @@ Final project for the Building AI course
 
 ## Summary
 
-The idea of this project is to develop smart glasses provided with a personal assistant, able to help blind people in their daily life, as an assistant dog/person would: avoiding obstacles, guidance to places, providing traffic lights information, distance to moving objects, etc. It would be based on the principles behind autonomous cars and common personal assistants (like Amazon Alexa, Google Assistant, ...).
+The idea of this project is to develop smart glasses provided with an intelligent personal assistant, able to help blind people in their daily life: avoiding obstacles, guidance to places, providing traffic lights information and distance to moving objects like cars/bikes, etc. It would be based on the principles behind autonomous cars and common personal assistants (like Amazon Alexa, Google Assistant, ...).
 
 ## Background
 
-This personal AI assistant would help blind people with their daily challenges:
+In addition to typical information provided by current personal assistants (weather information, news, music, books reading, calendar/tasks reminder, ...), this intelligent personal assistant would be able to help blind people with their daily challenges:
 
 * Safety
 * Guidance to places
 * Status of environment (moving objects, traffic lights, weather, ...)
 * Faces recognition
 * Place/situation description
-* Digital devices usage (like cellphones -would require additional dedicated apps-)
+* Digital devices usage (like cellphones -it would require additional dedicated apps-)
 * Etc.
 
 It could also extend its operability with deep learning, based on routines and user preferences:
@@ -31,7 +31,7 @@ It could also extend its operability with deep learning, based on routines and u
 
 ## How is it used?
 
-The basis for this idea would be a mixture between current existing personal assistants (Amazon Alexa, Google Assistant, Apple Siri, ...) with additional AI learning features, like the current autonomous car systems under development, being the main devices the integrated cameras, able to provide:
+The basis for this idea would be a mixture between current existing personal assistants (Amazon Alexa, Google Assistant, Apple Siri, ...) with additional AI learning features and interfaces, like the current autonomous driving systems under development, being the main devices the integrated cameras, able to provide:
 
 * 360º vision
 * Recognition of objects, faces, colors, shapes, ...
@@ -39,7 +39,7 @@ The basis for this idea would be a mixture between current existing personal ass
 * Prediction of situations (anticipating situations like crashes, etc.)
 * Etc.
 
-Of course, the system should incorporate in-ear headphones to preserve user privacy, etc., and a microphone to capture commands and environment audio (which could be filtered as required).
+Of course, the system should incorporate in-ear headphones to preserve user privacy, etc., and a microphone to capture user commands and environment audio (which could be filtered too).
 
 ## Data sources and AI methods
 
@@ -51,7 +51,7 @@ https://www.sama.com/training-data-for-autonomous-driving
 
 ## Challenges
 
-The project has the typical challenges of the autonomous systems; It is:
+The project mainly has the typical challenges of the autonomous driving systems; It is:
 
 * Massive amount information
 * Capacity to recognize objects, persons, animals, etc.
@@ -64,6 +64,8 @@ But perhaps the biggest challenge is the safety principle, which is above anythi
 I think this is a feasible project nowadays with the current level of development of personal assistants and autonomous driving systems and will help to uncountable people suffering this horrible problem.
 
 The main challenge, apart from safety concerns, will the intelligent interpretation of the collected data (like describing the current place or situation, predicting possible scenarios, etc.).
+
+The new 5G coverage would also help to the development of systems like this.
 
 ## Acknowledgments
 
