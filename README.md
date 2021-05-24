@@ -44,10 +44,10 @@ Of course, the system should incorporate in-ear headphones to preserve user priv
 ## Data sources and AI methods
 
 https://developer.amazon.com/alexa
-https://developers.google.com/assistant/sdk
-https://developer.nvidia.com/drive
-https://autonomic.ai/
-https://www.sama.com/training-data-for-autonomous-driving
+<br>https://developers.google.com/assistant/sdk
+<br>https://developer.nvidia.com/drive
+<br>https://autonomic.ai/
+<br>https://www.sama.com/training-data-for-autonomous-driving
 
 ## Challenges
 
@@ -70,4 +70,4 @@ The new 5G coverage would also help to the development of systems like this.
 ## Acknowledgments
 
 https://www.wired.com/review/amazon-echo-frames/
-https://www.theverge.com/22197463/amazon-echo-frames-review-alexa
+<br>https://www.theverge.com/22197463/amazon-echo-frames-review-alexa
