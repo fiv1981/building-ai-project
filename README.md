@@ -2,78 +2,70 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# AI Smart Glasses
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+The idea of this project is to develop smart glasses provided with a personal assistant, able to help blind people in their daily life, as an assistant dog/person would: avoiding obstacles, guidance to places, providing traffic lights information, distance to moving objects, etc. It would be based on the principles behind autonomous cars and common personal assistants (like Amazon Alexa, Google Assistant, ...).
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+This personal AI assistant would help blind people with their daily challenges:
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* Safety
+* Guidance to places
+* Status of environment (moving objects, traffic lights, weather, ...)
+* Faces recognition
+* Place/situation description
+* Digital devices usage (like cellphones -would require additional dedicated apps-)
+* Etc.
 
+It could also extend its operability with deep learning, based on routines and user preferences:
+
+* Tasks assistant
+* Clothes assistant
+* Purchasing assistant
+* Etc.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The basis for this idea would be a mixture between current existing personal assistants (Amazon Alexa, Google Assistant, Apple Siri, ...) with additional AI learning features, like the current autonomous car systems under development, being the main devices the integrated cameras, able to provide:
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+* 360º vision
+* Recognition of objects, faces, colors, shapes, ...
+* Measurement of distances
+* Prediction of situations (anticipating situations like crashes, etc.)
+* Etc.
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+Of course, the system should incorporate in-ear headphones to preserve user privacy, etc., and a microphone to capture commands and environment audio (which could be filtered as required).
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+https://developer.amazon.com/alexa
+https://developers.google.com/assistant/sdk
+https://developer.nvidia.com/drive
+https://autonomic.ai/
+https://www.sama.com/training-data-for-autonomous-driving
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The project has the typical challenges of the autonomous systems; It is:
+
+* Massive amount information
+* Capacity to recognize objects, persons, animals, etc.
+* Intelligent interpretation of the data
+
+But perhaps the biggest challenge is the safety principle, which is above anything, and will require duplicated sensors, cameras, data evaluation, etc.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+I think this is a feasible project nowadays with the current level of development of personal assistants and autonomous driving systems and will help to uncountable people suffering this horrible problem.
 
+The main challenge, apart from safety concerns, will the intelligent interpretation of the collected data (like describing the current place or situation, predicting possible scenarios, etc.).
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+https://www.wired.com/review/amazon-echo-frames/
+https://www.theverge.com/22197463/amazon-echo-frames-review-alexa
